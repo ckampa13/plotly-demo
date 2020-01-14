@@ -10,7 +10,9 @@ dependencies:
   - attrs=19.3.0=py_0
   - backcall=0.1.0=py_0
   - bleach=3.1.0=py_0
+  - bzip2=1.0.8=h516909a_2
   - ca-certificates=2019.11.28=hecc5488_0
+  - cairo=1.16.0=hfb77d84_1002
   - certifi=2019.11.28=py38_0
   - cffi=1.13.2=py38h8022711_0
   - chardet=3.0.4=py38_1003
@@ -20,19 +22,35 @@ dependencies:
   - defusedxml=0.6.0=py_0
   - entrypoints=0.3=py38_1000
   - expat=2.2.5=he1b5a44_1004
+  - fftw=3.3.8=nompi_h7f3a6c3_1110
+  - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
+  - font-ttf-inconsolata=2.001=hab24e00_0
+  - font-ttf-source-code-pro=2.030=hab24e00_0
+  - font-ttf-ubuntu=0.83=hab24e00_0
   - fontconfig=2.13.1=h86ecdb6_1001
+  - fonts-conda-forge=1=0
   - freetype=2.10.0=he983fc9_1
+  - fribidi=1.0.5=h516909a_1002
+  - gdk-pixbuf=2.36.12=h3f25603_1005
   - gettext=0.19.8.1=hc5be6a0_1002
+  - ghostscript=9.22=hf484d3e_1001
+  - giflib=5.2.1=h516909a_1
   - glib=2.58.3=py38h6f030ca_1002
+  - gobject-introspection=1.58.2=py38h5503ade_1002
+  - graphite2=1.3.13=hf484d3e_1000
+  - graphviz=2.42.3=h0511662_0
   - gst-plugins-base=1.14.5=h0935bb2_0
   - gstreamer=1.14.5=h36ae1b5_0
+  - harfbuzz=2.4.0=h9f30f68_3
   - icu=64.2=he1b5a44_1
   - idna=2.8=py38_1000
+  - imagemagick=7.0.9_16=pl526ha9fe49d_0
   - importlib_metadata=1.4.0=py38_0
   - ipykernel=5.1.3=py38h5ca1d4c_0
   - ipython=7.11.1=py38h5ca1d4c_0
   - ipython_genutils=0.2.0=py_1
   - ipywidgets=7.5.1=py_0
+  - jbig=2.1=h14c3975_2001
   - jedi=0.15.2=py38_0
   - jinja2=2.10.3=py_0
   - jpeg=9c=h14c3975_1001
@@ -45,6 +63,7 @@ dependencies:
   - libblas=3.8.0=14_openblas
   - libcblas=3.8.0=14_openblas
   - libclang=9.0.1=default_hde54327_0
+  - libcroco=0.6.13=h8d621e5_0
   - libffi=3.2.1=he1b5a44_1006
   - libgcc-ng=9.2.0=h24d8f2e_2
   - libgfortran-ng=7.3.0=hdf63c60_4
@@ -54,12 +73,17 @@ dependencies:
   - libllvm9=9.0.1=hc9558a2_0
   - libopenblas=0.3.7=h5ec1e0e_6
   - libpng=1.6.37=hed695b0_0
+  - librsvg=2.46.4=h33a7fed_0
   - libsodium=1.0.17=h516909a_0
   - libstdcxx-ng=9.2.0=hdf63c60_2
+  - libtiff=4.1.0=hc3755c2_3
+  - libtool=2.4.6=h14c3975_1002
   - libuuid=2.32.1=h14c3975_1000
+  - libwebp=1.0.2=h56121f0_5
   - libxcb=1.13=h14c3975_1002
   - libxkbcommon=0.9.1=hebb1f50_0
   - libxml2=2.9.10=hee79883_0
+  - lz4-c=1.8.3=he1b5a44_1001
   - markupsafe=1.1.1=py38h516909a_0
   - mistune=0.8.4=py38h516909a_1000
   - more-itertools=8.1.0=py_0
@@ -70,15 +94,20 @@ dependencies:
   - nspr=4.24=he1b5a44_0
   - nss=3.47=he751ad9_0
   - numpy=1.17.3=py38h95a1406_0
+  - openjpeg=2.3.1=h981e76c_3
   - openssl=1.1.1d=h516909a_0
   - pandas=0.25.3=py38hb3f55d8_0
   - pandoc=2.9.1.1=0
   - pandocfilters=1.4.2=py_1
+  - pango=1.42.4=ha030887_1
   - parso=0.5.2=py_0
   - pcre=8.43=he1b5a44_0
+  - perl=5.26.2=h516909a_1006
   - pexpect=4.7.0=py38_0
   - pickleshare=0.7.5=py38_1000
   - pip=19.3.1=py38_0
+  - pixman=0.38.0=h516909a_1003
+  - pkg-config=0.29.2=h516909a_1006
   - plotly=4.4.1=py_0
   - plotly-orca=1.2.1=1
   - prometheus_client=0.7.1=py_0
@@ -112,16 +141,29 @@ dependencies:
   - tornado=6.0.3=py38h516909a_0
   - traitlets=4.3.3=py38_0
   - urllib3=1.25.7=py38_0
+  - wand=0.5.6=py_0
   - wcwidth=0.1.8=py_0
   - webencodings=0.5.1=py_1
   - wheel=0.33.6=py38_0
   - widgetsnbextension=3.5.1=py38_0
+  - xorg-kbproto=1.0.7=h14c3975_1002
+  - xorg-libice=1.0.10=h516909a_0
+  - xorg-libsm=1.2.3=h84519dc_1000
+  - xorg-libx11=1.6.9=h516909a_0
   - xorg-libxau=1.0.9=h14c3975_0
   - xorg-libxdmcp=1.1.3=h516909a_0
+  - xorg-libxext=1.3.4=h516909a_0
+  - xorg-libxpm=3.5.13=h516909a_0
+  - xorg-libxrender=0.9.10=h516909a_1002
+  - xorg-libxt=1.1.5=h516909a_1003
+  - xorg-renderproto=0.11.1=h14c3975_1002
+  - xorg-xextproto=7.3.0=h14c3975_1002
+  - xorg-xproto=7.0.31=h14c3975_1007
   - xz=5.2.4=h14c3975_1001
   - zeromq=4.3.2=he1b5a44_2
   - zipp=0.6.0=py_0
   - zlib=1.2.11=h516909a_1006
+  - zstd=1.4.4=h3b9ef0a_1
   - pip:
     - pyqt5-sip==4.19.18
     - pyqtwebengine==5.12.1

@@ -1,3 +1,6 @@
 **/*.ipynb_checkpoints/
 
 data/ext_data
+
+temp.pdf
+temp-plot.html
